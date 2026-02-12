@@ -17,7 +17,7 @@ jobs:
         run: npm install -g surge
 
       - name: Desplegar Surge
-        run: surge ./ --domain Primer-Parcial-Electiva.surge.sh
+        run: surge ./ --domain primer-parcial-electiva.surge.sh
         env:
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
